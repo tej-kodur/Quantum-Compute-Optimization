@@ -1,0 +1,29 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install core dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy pyarrow
+
+      - name: Import cost_model
+        run: python - << 'PY'
+import importlib, sys
+try:
+    import cost_model
+    print("✅ cost_model imported OK")
+except Exception as e:
+    print("❌ import failed:", e)
+    sys.exit(1)
+PY

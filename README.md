@@ -70,7 +70,7 @@ cost_model.py      reusable pricing helper
 3. **Heuristics (03)** – Baseline A, Baseline B, and two greedy retag strategies  
 4. **RL Scheduler (04)** – Gym env per block, DQN learns when to retag  
 5. **Results (05)** – daily curves, bar chart, pair-wise heat-map, summary CSV  
-```
+
 
 ---
 
@@ -95,9 +95,8 @@ cost_model.py      reusable pricing helper
 ---
 
 ## 📜 License
-```
 This project is licensed under the [MIT License](LICENSE).
-```
+
 
 ---
 
@@ -114,4 +113,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center"><i>Happy cost-crunching! ⚡️</i></p>
-```
