@@ -15,7 +15,7 @@ jobs:
       - name: Install core dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy pyarrow
+          pip install -r requirements.txt
 
       - name: Import cost_model
         run: python - << 'PY'
