@@ -5,12 +5,12 @@
 
 <p align="center">
   <!-- badges -->
-  <a href="https://github.com/tej-kodur/Quantum-Compute-Optimization/actions">
+<!--   <a href="https://github.com/tej-kodur/Quantum-Compute-Optimization/actions">
     <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/tej-kodur/Quantum-Compute-Optimization/ci.yml?label=build&logo=github&style=for-the-badge">
-  </a>
+  </a> -->
   <img alt="python" src="https://img.shields.io/badge/python-3.11-blue?style=for-the-badge&logo=python">
-  <img alt="license" src="https://img.shields.io/github/license/tej-kodur/Quantum-Compute-Optimization?style=for-the-badge">
-  <img alt="repo size" src="https://img.shields.io/github/repo-size/tej-kodur/Quantum-Compute-Optimization?color=success&style=for-the-badge">
+<!--   <img alt="license" src="https://img.shields.io/github/license/tej-kodur/Quantum-Compute-Optimization?style=for-the-badge"> -->
+<!--   <img alt="repo size" src="https://img.shields.io/github/repo-size/tej-kodur/Quantum-Compute-Optimization?color=success&style=for-the-badge"> -->
 </p>
 
 <p align="center">
