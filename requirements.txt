@@ -1,0 +1,9 @@
+pandas
+numpy
+pyarrow
+matplotlib
+seaborn
+tqdm
+gymnasium==0.29
+stable-baselines3==2.2.1
+pyyaml

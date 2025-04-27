@@ -1,0 +1,14 @@
+acq_cost: 0.2
+exec_fee:
+  Atom: 0.01
+  Photon: 0.05
+  Spin: 0.2
+lease_fee:
+  Atom: 3.0
+  Photon: 1.5
+  Spin: 0.4
+transfer_fee:
+  Atom: 0.01
+  Photon: 0.1
+  Spin: 0.25
+trigger_fee: 0.01
