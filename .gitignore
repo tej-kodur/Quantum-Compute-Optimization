@@ -5,3 +5,4 @@ __pycache__/
 data/
 results/*.parquet
 .DS_Store
+.env
